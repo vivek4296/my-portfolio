@@ -11,7 +11,15 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Septemeber 2022 - Present",
+    year: "March 2025 - Present",
+    role: "Software Engineer",
+    company: "Apple",
+    description: `• Working with Apple to help maintain their internal tools and services.
+• Developing backend services for processing data from multiple sources.`,
+    technologies: ["Java", "Spring Framework", "Kafka", "Redis"],
+  },
+  {
+    year: "Septemeber 2022 - March 2025",
     role: "Member of Technical Staff - 2",
     company: "Adobe",
     description: `• As part of the Document Cloud Services team, I contribute to the development
@@ -19,6 +27,8 @@ of key features such as commenting and sharing within Adobe Acrobat.
 • Improved the process of extracting and merging comments on shared PDF files
 in Adobe Acrobat, resulting in a 45 percentage performance boost in
 production by creating a new service for this functionality (2024).
+• Proactively developed a Streamlit application in Python utilizing multiple LLMs to convert natural language input into SQL queries for dynamic data retrieval.
+Explored concepts in Generative AI, prompt engineering to enhance system accuracy and usability (2024).
 • Developed a resiliency service from scratch to enhance the search functionality
 in Adobe Acrobat for uploaded PDFs. This feature ensures reliable retry
 mechanisms for searching keywords within shared files, so if a word is present
@@ -37,6 +47,11 @@ analytics, and comprehensive monitoring.`,
       "HBase",
       "Elastic Search",
       "Redis",
+      "LLM",
+      "Streamlit",
+      "Python",
+      "Prompt Engineering",
+      "Generative AI",
     ],
   },
   {

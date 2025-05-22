@@ -25,6 +25,8 @@ const experienceVariants = {
 
 const getCompanyColor = (company) => {
   switch (company) {
+    case "Apple":
+      return "border-blue-600";
     case "Adobe":
       return "border-red-600";
     case "Tekion Corps":
@@ -40,6 +42,8 @@ const getCompanyColor = (company) => {
 
 const getDotColor = (company) => {
   switch (company) {
+    case "Apple":
+      return "bg-blue-600";
     case "Adobe":
       return "bg-red-600";
     case "Tekion Corps":
@@ -88,9 +92,11 @@ const Experience = () => {
 
             {/* Year and Company */}
             <div className="flex flex-wrap items-center gap-4 mb-4">
-              <span className="text-sm text-stone-400">{experience.year}</span>
-              <h3 className="text-2xl font-semibold">{experience.role}</h3>
-              <span className="text-stone-400">@ {experience.company}</span>
+              <h3 className="text-3xl font-semibold">{experience.company}</h3>
+              <h3 className="text-2xl font-semibold">| {experience.role}</h3>
+              <span className="text-sm text-stone-400 py-1 leading-6">
+                {experience.year}
+              </span>
             </div>
 
             {/* Description with bullet points */}
